@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Orb Settings -->
+    <PreferenceCategory
+        android:title="Preferences">
+
+        <!-- Orb Count -->
+        <EditTextPreference
+            android:title="@string/orb_count"
+            android:defaultValue="20"
+            android:key="@string/orb_count_key"
+            android:inputType="number"/>
+
+        <!-- Orb Size -->
+        <EditTextPreference
+            android:title="@string/orb_min_size"
+            android:defaultValue="5"
+            android:key="@string/orb_min_size_key"
+            android:inputType="number"/>
+
+        <EditTextPreference
+            android:title="@string/orb_max_size"
+            android:defaultValue="10"
+            android:key="@string/orb_max_size_key"
+            android:inputType="number"/>
+
+        <!-- Orb Speed -->
+        <EditTextPreference
+            android:title="@string/orb_min_speed"
+            android:defaultValue="5"
+            android:key="@string/orb_min_speed_key"
+            android:inputType="number"/>
+
+        <EditTextPreference
+            android:title="@string/orb_max_speed"
+            android:defaultValue="10"
+            android:key="@string/orb_max_speed_key"
+            android:inputType="number"/>
+
+        <!-- Orb Color -->
+        <ListPreference
+            android:title="@string/orb_color"
+            android:key="@string/orb_color_key"
+            android:entries="@array/color_list"
+            android:entryValues="@array/color_value"
+            android:defaultValue="Random"/>
+
+        <!-- Background Settings -->
+        <ListPreference
+            android:title="@string/bg_color"
+            android:key="@string/bg_color_key"
+            android:entries="@array/color_list"
+            android:entryValues="@array/color_value"
+            android:defaultValue="Random"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Music">
+
+        <ListPreference
+            android:title="@string/music_title"
+            android:key="@string/music_key"
+            android:entries="@array/dst_list"
+            android:entryValues="@array/dst_value"
+            android:defaultValue="DST - Sheep Field"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

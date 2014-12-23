@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings -->
+    <string name="app_name">Orbs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="eula">Policy: FourPoint WILL NOT be responsible for any damage done to your device or yourself. Orbs ia a free application meant for project purposes and non other else. Any misuse of this application will be your own responsibility and non towards the FourPoint Company (Not a real Company). We provide the tools for entertainment and educational learning projects for future developers. Again, we will not be responsible for any actions you choose to do with this application nor what this application might do to you. Thank you for downloading Orbs, and we hope you enjoy it! Do you accept this agreement?</string>
+    <string name="updates">Updates: Bug Fixes and improved settings preference. </string>
+    <string name="about_page">About:\n\nThis application is brought to you by FourPoint. We are proud to share our creative ideas in ways that everyone can enjoy. We hope you enjoy this application and feel free to contact us at devrookie121@gmail.com. Any feed back would be helpful! Thanks.</string>
+
+    <!-- Orb Title / Keys -->
+
+    <!-- Orb Count -->
+    <string name="orb_count">Orbs [1-200]</string>
+    <string name="orb_count_key">orbCount</string>
+    <!-- Radius -->
+    <string name="orb_min_size">Orb minimum size [1-20]</string>
+    <string name="orb_min_size_key">orbMinSize</string>
+    <string name="orb_max_size">Orb Maximum Size [1-30]</string>
+    <string name="orb_max_size_key">orbMaxSize</string>
+    <!-- Color -->
+    <string name="orb_color">Orb Color</string>
+    <string name="orb_color_key">orbColor</string>
+    <!-- Speed -->
+    <string name="orb_min_speed">Orb Minimum Speed [1-10]</string>
+    <string name="orb_min_speed_key">orbMixSpeed</string>
+    <string name="orb_max_speed">Orb Maximum Speed [1-25]</string>
+    <string name="orb_max_speed_key">orbMaxSpeed</string>
+    <!-- Background -->
+    <string name="bg_color">Background Color</string>
+    <string name="bg_color_key">bgColor</string>
+    <!-- Music -->
+    <string name="music_title">Music Settings</string>
+    <string name="music_key">musicKey</string>
+
+</resources>

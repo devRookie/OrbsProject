@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Color Names-->
+    <string-array name="color_list">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Pink</item> <!--Magenta-->
+        <item>Yellow</item>
+        <item>Random</item>
+    </string-array>
+
+    <!--Color Values-->
+    <string-array name="color_value" >
+        <item>-65536</item>
+        <item>-16711936</item>
+        <item>-16776961</item>
+        <item>-16777216</item>
+        <item>-1</item>
+        <item>-65281</item> <!--Magenta-->
+        <item>-256</item>
+        <item>Random</item>
+    </string-array>
+
+    <!--Music List-->
+    <string-array name="dst_list">
+        <item>DST - Sheep Leaves</item>
+        <item>DST - Mellow Explanation</item>
+        <item>DST - Space Cloud</item>
+        <item>Off</item>
+    </string-array>
+
+    <!--Music Values-->
+    <string-array name="dst_value">
+        <item>DST - Sheep Field</item>
+        <item>DST - Mellow Explanation</item>
+        <item>DST - Space Cloud</item>
+        <item>Off</item>
+    </string-array>
+
+</resources>
